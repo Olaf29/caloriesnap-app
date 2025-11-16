@@ -1,0 +1,166 @@
+[data-testid="stAppViewContainer"] {
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/memphis-mini.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+[data-testid="stCameraInput"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+[data-testid="stCameraInput"] video {
+    width: 600px !important;
+    height: auto !important;
+    border-radius: 8px;
+}
+[data-testid="stCameraInput"] img {
+    width: 600px !important;
+    height: auto !important;
+    border-radius: 8px;
+}
+[data-testid="stImage"] {
+    display: flex;
+    justify-content: center;
+}
+[data-testid="stRadio"] > div {
+    display: flex;
+    justify-content: center;
+}
+[data-testid="stTabs"] div[role="tablist"] {
+    display: flex;
+    justify-content: center;
+}
+.feature-highlight {
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #F8F9FA;
+    border: 1px solid #E0E0E0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.feature-highlight span {
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+.feature-highlight strong {
+    display: block;
+    font-size: 1.1rem;
+    color: #4CAF50;
+    margin-bottom: 0.25rem;
+}
+.feature-highlight p {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.4;
+}
+.step-card {
+    text-align: center;
+    padding: 1.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    height: 100%;
+}
+.step-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+.edu-card {
+    padding: 1.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #F0FDF4;
+    border: 1px solid #BBF7D0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.edu-card h4 {
+    font-size: 1.15rem;
+    color: #166534;
+    margin-bottom: 0.5rem;
+}
+.edu-card p {
+    font-size: 0.95rem;
+    color: #155724;
+    line-height: 1.5;
+}
+.profile-card {
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    max-width: 400px;
+    margin: 1rem auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+}
+.profile-card:hover {
+    transform: translateY(-5px);
+}
+.profile-card-avatar img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 3px solid #4CAF50;
+}
+.profile-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.25rem;
+}
+.profile-card .role {
+    font-size: 1rem;
+    color: #4CAF50;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.profile-card .bio {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+.profile-card .social-links a img {
+    width: 36px;
+    height: 36px;
+    margin: 0 0.5rem;
+    vertical-align: middle;
+    transition: transform 0.2s;
+}
+.profile-card .social-links a:hover img {
+    transform: scale(1.1);
+}
+.empty-history-card {
+    background-color: #F8F9FA;
+    border: 1px dashed #CED4DA;
+    border-radius: 12px;
+    padding: 2.5rem;
+    text-align: center;
+    max-width: 700px;
+    margin: 2rem auto;
+}
+.empty-history-card h3 {
+    font-size: 1.75rem;
+    color: #4CAF50;
+    margin-bottom: 0.75rem;
+}
+.empty-history-card p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+[data-testid="stVerticalBlock"] > [data-testid="stVerticalBlockBorderWrapper"] {
+    
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    margin-bottom: 1.5rem;
+    border: 1px solid #E0E0E0;
+}

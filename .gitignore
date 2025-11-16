@@ -1,0 +1,12 @@
+# virtual environment
+venv/
+.venv/
+env/
+
+# api rahasia
+.streamlit/secrets.toml
+
+# sistem dan cache
+__pycache__/
+*.pyc
+.DS_Store
